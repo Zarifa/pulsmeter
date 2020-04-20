@@ -1,0 +1,23 @@
+    @keyframes heartbeat {
+        from {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.4);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+    
+    // @keyframes shosesteps {
+    //     from {
+    //         -webkit-transform: rotate(0deg);
+    //     }
+    //     50% {
+    //         -webkit-transform: rotate(-10deg);
+    //     }
+    //     to {
+    //         -webkit-transform: rotate(10deg);
+    //     }
+    // }

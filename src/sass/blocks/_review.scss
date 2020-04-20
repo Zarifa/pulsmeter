@@ -1,0 +1,33 @@
+.review {
+    margin-bottom: 71px;
+    &_wrapper {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    &_client {
+        width: 650px;
+        margin-left: 62px;
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__maraphone {
+        margin-bottom: 19px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__review {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+.title_review {
+    margin-bottom: 20px;
+}

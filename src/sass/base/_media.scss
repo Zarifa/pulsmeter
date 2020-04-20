@@ -1,0 +1,134 @@
+@media (max-width:991px) {
+    .container {
+        max-width: 700px;
+    }
+    .advantages {
+        &__wrapper {
+            width: 700px;
+        }
+        &__subheader {
+            width: 186px;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .container {
+        max-width: 518px;
+    }
+    .promo {
+        &__header {
+            font-size: 34px;
+        }
+    }
+    .advantages {
+        img {
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+        &__wrapper {
+            width: 539px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__header {
+            margin-bottom: 5px;
+            font-size: 34px;
+        }
+        &__subheader {
+            margin: 0 auto;
+            width: 350px;
+            font-size: 20px;
+        }
+        &__blocks {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .promo {
+        .container {
+            width: 300px;
+        }
+        .header {
+            flex-direction: column;
+        }
+        &_icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__header {
+            margin: 0 auto;
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 12px;
+            margin: 0 auto;
+        }
+    }
+    .advantages {
+        .container {
+            width: 300px;
+        }
+        &__wrapper {
+            width: 300px;
+        }
+        &__subheader {
+            width: 250px;
+            font-size: 14px;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__mainheader {
+            font-size: 23px;
+            margin: 0 auto;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 37px;
+        }
+        &__icon {
+            width: 169px;
+            height: 91px;
+        }
+        &_icons {
+            margin-top: 27px;
+        }
+        .button_main {
+            margin-top: 14px;
+            width: 261px;
+            height: 36px;
+            font-size: 12px
+        }
+    }
+    .consultation {
+        // width: 316px;
+        .consultation {
+            padding: 0;
+        }
+        .container {
+            width: 350px;
+        }
+        .feed-form {
+            // width: 250px;
+            align-items: center;
+            .button_submit {
+                width: 65%;
+            }
+        }
+        .title_left {
+            font-size: 22px;
+        }
+    }
+}
