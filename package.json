@@ -17,7 +17,7 @@
     },
     "homepage": "https://github.com/Zarifa/Wordpress2#readme",
     "dependencies": {
-        "browser-sync": "^2.26.7",
+        "browser-sync": "^2.27.10",
         "save-dev": "0.0.1-security"
     },
     "devDependencies": {
